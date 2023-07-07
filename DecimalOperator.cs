@@ -1,6 +1,5 @@
 ﻿namespace Forge.Models.Operators
 {
-
     public struct DecimalOperator : IOperator<decimal>
     {
         public decimal Add(decimal a, decimal b) => a + b;
